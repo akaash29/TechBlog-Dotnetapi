@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(dotnet build \"d:\\\\Blog Project 2026\\\\User API Dot net Core\\\\UserRegistration\" 2>&1)",
+      "PowerShell($bytes = New-Object byte[] 64; [System.Security.Cryptography.RandomNumberGenerator]::Fill\\($bytes\\); [Convert]::ToBase64String\\($bytes\\))",
+      "PowerShell(dotnet ef migrations add AddUserNameRenameTimestampsAndRefreshTokens --project \"d:\\\\Blog Project 2026\\\\User API Dot net Core\\\\UserRegistration\\\\UserRegistration.Infrastructure\" --startup-project \"d:\\\\Blog Project 2026\\\\User API Dot net Core\\\\UserRegistration\\\\UserRegistration\" 2>&1)",
+      "PowerShell(dotnet ef database update --project \"d:\\\\Blog Project 2026\\\\User API Dot net Core\\\\UserRegistration\\\\UserRegistration.Infrastructure\" --startup-project \"d:\\\\Blog Project 2026\\\\User API Dot net Core\\\\UserRegistration\\\\UserRegistration\" 2>&1)",
+      "PowerShell(dotnet ef migrations add AddRolesMasterTable --project \"d:\\\\Blog Project 2026\\\\User API Dot net Core\\\\UserRegistration\\\\UserRegistration.Infrastructure\" --startup-project \"d:\\\\Blog Project 2026\\\\User API Dot net Core\\\\UserRegistration\\\\UserRegistration\" 2>&1)",
+      "PowerShell(sqlcmd -S \"\\(localdb\\)\\\\mssqllocaldb\" -d UserRegistrationDb -Q \"SELECT Id, Name FROM Roles ORDER BY Id\" -C 2>&1)"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="UserRegistration.Application/UserRegistration.Application.csproj" />
+  <Project Path="UserRegistration.Domain/UserRegistration.Domain.csproj" />
+  <Project Path="UserRegistration.Infrastructure/UserRegistration.Infrastructure.csproj" />
+  <Project Path="UserRegistration/UserRegistration.csproj" />
+</Solution>

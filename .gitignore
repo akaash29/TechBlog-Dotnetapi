@@ -1,0 +1,23 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+# Test results
+TestResults/
+*.trx
+
+# User-specific secrets (never commit real connection strings/keys)
+appsettings.*.local.json
+secrets.json
+
+# OS files
+.DS_Store
+Thumbs.db
